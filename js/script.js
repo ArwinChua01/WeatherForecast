@@ -38,7 +38,7 @@ switch (resultFromServer.weather[0].main) {
         case 'Drizzle':
         case 'Mist':
             document.body.style.backgroundImage = 'url("./img/rainy.jpeg")';
-
+break;
             case 'Thunderstorm':
             document.body.style.backgroundImage = 'url("./img/stormy.jpeg")';
             break;
